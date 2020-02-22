@@ -48,7 +48,7 @@ class GooglePlaces(object):
         place_details =  json.loads(res.content)
         return place_details
     
-api = GooglePlaces('AIzaSyAgYE9pbxhnSRpWkS-0CPkBFqD9ZtxHHG8')
+api = GooglePlaces('AIzaSy....txHHG8')
 
 #results = api.search_place_by_text("1333 South Park St")
 #location_test = str(results['results'][0]['geometry']['location']['lat'])+','+str((results['results'][0]['geometry']['location']['lng']))

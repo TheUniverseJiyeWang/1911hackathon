@@ -60,7 +60,7 @@ class GooglePlaces(object):
         place_details =  json.loads(res.content)
         return place_details
     
-api = GooglePlaces('AIzaSyAgYE9pbxhnSRpWkS-0CPkBFqD9ZtxHHG8')
+api = GooglePlaces('AIzaS....HHG8')
 
 fields = ['name', 'formatted_address', 'international_phone_number', 'website', 'rating', 'review']
 
